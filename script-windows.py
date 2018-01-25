@@ -8,7 +8,7 @@ hostname = "google.com"
 
 while True:
 
-    response = os.system("ping" + hostname)
+    response = os.system("ping " + hostname)
     if response == 1:
         print("No Internet")
     else:
